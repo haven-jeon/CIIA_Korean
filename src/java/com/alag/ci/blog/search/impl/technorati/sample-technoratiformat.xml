@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Technorati API version 1.0 /tag" -->
+<!DOCTYPE tapi PUBLIC "-//Technorati, Inc.//DTD TAPI 0.02//EN" "http://api.technorati.com/dtd/tapi-002.xml">
+<tapi version="1.0">
+<document>
+<result>
+<query>collective intelligence</query>
+<postsmatched>621</postsmatched>
+<blogsmatched></blogsmatched>
+<start>1</start>
+<limit>3</limit>
+<querytime>0.024481</querytime>
+</result>
+<item>
+<weblog>
+<name>Social computation and creativity</name>
+<url>http://www.3form.org/blog</url>
+<rssurl>http://www.3form.org/blog/?feed=rss2</rssurl>
+<atomurl></atomurl>
+<inboundlinks>9</inboundlinks>
+<inboundblogs>3</inboundblogs>
+<rank>1146457</rank>
+<lastupdate>2006-12-31 14:53:06</lastupdate>
+<hasphoto>1</hasphoto>
+<author>
+<firstname>Alex</firstname>
+<lastname>Kosorukoff</lastname>
+<username>alexko</username>
+<description>A blog about social computation, collective intelligence, and creativity</description>
+<bio>I am a computer scientist and entrepreneur. My project, Free Knowledge Exchange, combines creativity and judgment of many participants to discover and solve their problems since summer 1998.</bio>
+<thumbnailpicture>http://static.technorati.com/progimages/photo.jpg?uid=422058</thumbnailpicture>
+</author>
+</weblog>
+<title>Web services needs and business trends</title>
+<excerpt>Richard MacManus has a post about the biggest web trend predictions for 2007. It is somewhat...</excerpt>
+<created>2006-12-31 14:52:04</created>
+<postupdate>2006-12-31 14:53:06</postupdate>
+<permalink>http://www.3form.org/blog/?p=16</permalink>
+</item>
+<item>
+<weblog>
+<name>Social computation and creativity</name>
+<url>http://www.3form.org/blog</url>
+<rssurl>http://www.3form.org/blog/?feed=rss2</rssurl>
+<atomurl></atomurl>
+<inboundlinks>9</inboundlinks>
+<inboundblogs>3</inboundblogs>
+<rank>1146457</rank>
+<lastupdate>2006-12-31 14:53:06</lastupdate>
+<hasphoto>1</hasphoto>
+<author>
+<firstname>Alex</firstname>
+<lastname>Kosorukoff</lastname>
+<username>alexko</username>
+<description>A blog about social computation, collective intelligence, and creativity</description>
+<bio>I am a computer scientist and entrepreneur. My project, Free Knowledge Exchange, combines creativity and judgment of many participants to discover and solve their problems since summer 1998.</bio>
+<thumbnailpicture>http://static.technorati.com/progimages/photo.jpg?uid=422058</thumbnailpicture>
+</author>
+</weblog>
+<title>What internet service do you need?</title>
+<excerpt>What internet service do you need? December 31st, 2006 I stumbled on the question “What internet service [do] you need, but still searching… ?” at...</excerpt>
+<created>2006-12-31 12:07:14</created>
+<postupdate>2006-12-31 12:27:57</postupdate>
+<permalink>http://www.3form.org/blog/?p=15</permalink>
+</item>
+<item>
+<weblog>
+<name>Dragon Head Almost Destroyed Me</name>
+<url>http://www.dhadm.com</url>
+<rssurl>http://www.dhadm.com/index.php/dhadm/rss_2.0/</rssurl>
+<atomurl>http://www.dhadm.com/index.php/dhadm/rss_atom/</atomurl>
+<inboundlinks>147</inboundlinks>
+<inboundblogs>83</inboundblogs>
+<rank>39442</rank>
+<lastupdate>2006-12-28 04:10:03</lastupdate>
+<hasphoto></hasphoto>
+</weblog>
+<title>3 Sec 0-60MPH for $40,000</title>
+<excerpt>Make sure you read the user reviews of this video: click here I can almost always get a laugh from reading them and these are wonderful...</excerpt>
+<created>2006-12-28 04:09:54</created>
+<postupdate>2006-12-28 04:10:03</postupdate>
+<permalink>http://www.dhadm.com/index.php/weblog/3_sec_0_60mph_for_40000/</permalink>
+</item>
+</document>
+</tapi>

@@ -1,0 +1,220 @@
+#
+# An unexpected error has been detected by HotSpot Virtual Machine:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x6d7a97e7, pid=1620, tid=5160
+#
+# Java VM: Java HotSpot(TM) Client VM (1.5.0_06-b05 mixed mode)
+# Problematic frame:
+# V  [jvm.dll+0xc97e7]
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00a23518):  VMThread [id=5160]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x00000028
+
+Registers:
+EAX=0x00000028, EBX=0x00000003, ECX=0x00fa00fa, EDX=0x6d80ece8
+ESP=0x0094f98c, EBP=0x0094f9e4, ESI=0x00000000, EDI=0x2cf7cf58
+EIP=0x6d7a97e7, EFLAGS=0x00010206
+
+Top of Stack: (sp=0x0094f98c)
+0x0094f98c:   6d7b5346 00fa00fa 6d7b57b8 6d8549a0
+0x0094f99c:   25310050 25310058 6d75a252 6d8549a0
+0x0094f9ac:   25310058 6d75a22d 25310058 6d8549a0
+0x0094f9bc:   6d854988 22a702f0 00000000 00a23518
+0x0094f9cc:   00a239d8 00a239f8 00a23a0c 00a23dec
+0x0094f9dc:   0094fbec 22a70170 0094fa28 6d7a95b5
+0x0094f9ec:   25310050 6d7a9579 6d854988 6d7a97d9
+0x0094f9fc:   6d858e8c 6d7f118b 6d858e8c 6d854988 
+
+Instructions: (pc=0x6d7a97e7)
+0x6d7a97d7:   ff ff 59 c2 04 00 8b 4c 24 04 8b 01 85 c0 74 10
+0x6d7a97e7:   8b 00 83 e0 03 3c 03 74 07 51 e8 0e fd ff ff 59 
+
+
+Stack: [0x00910000,0x00950000),  sp=0x0094f98c,  free space=254k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0xc97e7]
+V  [jvm.dll+0xc95b5]
+V  [jvm.dll+0x6fe59]
+V  [jvm.dll+0x6fbd8]
+V  [jvm.dll+0x73241]
+V  [jvm.dll+0x10876b]
+V  [jvm.dll+0x6e9d5]
+V  [jvm.dll+0x6f091]
+V  [jvm.dll+0x1235ac]
+V  [jvm.dll+0x1233f7]
+V  [jvm.dll+0x122ec5]
+V  [jvm.dll+0x12306e]
+V  [jvm.dll+0x122dd3]
+C  [MSVCRT.dll+0x2a3b0]
+C  [kernel32.dll+0xb50b]
+
+VM_Operation (0x2ddef9a0): full generation collection, mode: safepoint, requested by thread 0x2cf7dc60
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x2cf7dc60 JavaThread "Worker-9" [_thread_blocked, id=5924]
+  0x2cd91908 JavaThread "ValidityCheckingThread" daemon [_thread_blocked, id=5844]
+  0x2be52360 JavaThread "TimerQueue" daemon [_thread_blocked, id=4428]
+  0x2c0f92d0 JavaThread "Worker-8" [_thread_blocked, id=2896]
+  0x2bf1b2f8 JavaThread "Cleanup" daemon [_thread_in_native, id=5552]
+  0x2af87560 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=1260]
+  0x2b0e1648 JavaThread "AWT-Windows" daemon [_thread_in_native, id=1648]
+  0x2b2d2428 JavaThread "Worker-7" [_thread_blocked, id=5836]
+  0x2b402890 JavaThread "org.eclipse.jdt.internal.ui.text.JavaReconciler" daemon [_thread_blocked, id=2416]
+  0x2b3ad3d0 JavaThread "Java indexing" daemon [_thread_blocked, id=4360]
+  0x2ae59408 JavaThread "Start Level Event Dispatcher" daemon [_thread_blocked, id=3180]
+  0x2ae6f458 JavaThread "Framework Event Dispatcher" daemon [_thread_blocked, id=4712]
+  0x00a6faf8 JavaThread "State Data Manager" daemon [_thread_blocked, id=5612]
+  0x00a32370 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=3008]
+  0x00a30f38 JavaThread "CompilerThread0" daemon [_thread_blocked, id=5436]
+  0x00a302b8 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=392]
+  0x00a273d8 JavaThread "Finalizer" daemon [_thread_blocked, id=4444]
+  0x00a25f40 JavaThread "Reference Handler" daemon [_thread_blocked, id=5000]
+  0x00356a90 JavaThread "main" [_thread_blocked, id=4168]
+
+Other Threads:
+=>0x00a23518 VMThread [id=5160]
+  0x00a33550 WatcherThread [id=4320]
+
+VM state:at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x00356120/0x0000071c] Threads_lock - owner thread: 0x00a23518
+[0x003562a0/0x000006e0] Heap_lock - owner thread: 0x2cf7dc60
+
+Heap
+ def new generation   total 9152K, used 1335K [0x02a70000, 0x03450000, 0x051d0000)
+  eden space 8192K,  10% used [0x02a70000, 0x02b43ff8, 0x03270000)
+  from space 960K,  50% used [0x03270000, 0x032e9cd0, 0x03360000)
+  to   space 960K,   0% used [0x03360000, 0x03360000, 0x03450000)
+ tenured generation   total 121024K, used 73617K [0x051d0000, 0x0c800000, 0x22a70000)
+   the space 121024K,  60% used [0x051d0000, 0x099b44e0, 0x099b4600, 0x0c800000)
+ compacting perm gen  total 65536K, used 54539K [0x22a70000, 0x26a70000, 0x2aa70000)
+   the space 65536K,  83% used [0x22a70000, 0x25fb2d18, 0x25fb2e00, 0x26a70000)
+No shared spaces configured.
+
+Dynamic libraries:
+0x00400000 - 0x0040c000 	C:\dev\Java\jdk1.5.0_06\bin\javaw.exe
+0x7c900000 - 0x7c9b0000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c8f4000 	C:\WINDOWS\system32\kernel32.dll
+0x77dd0000 - 0x77e6b000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e70000 - 0x77f01000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77d40000 - 0x77dd0000 	C:\WINDOWS\system32\USER32.dll
+0x77f10000 - 0x77f56000 	C:\WINDOWS\system32\GDI32.dll
+0x77c10000 - 0x77c68000 	C:\WINDOWS\system32\MSVCRT.dll
+0x6d6e0000 - 0x6d874000 	C:\dev\Java\jdk1.5.0_06\jre\bin\client\jvm.dll
+0x76b40000 - 0x76b6d000 	C:\WINDOWS\system32\WINMM.dll
+0x6d2f0000 - 0x6d2f8000 	C:\dev\Java\jdk1.5.0_06\jre\bin\hpi.dll
+0x76bf0000 - 0x76bfb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d6b0000 - 0x6d6bc000 	C:\dev\Java\jdk1.5.0_06\jre\bin\verify.dll
+0x6d370000 - 0x6d38d000 	C:\dev\Java\jdk1.5.0_06\jre\bin\java.dll
+0x6d6d0000 - 0x6d6df000 	C:\dev\Java\jdk1.5.0_06\jre\bin\zip.dll
+0x6d530000 - 0x6d543000 	C:\dev\Java\jdk1.5.0_06\jre\bin\net.dll
+0x71ab0000 - 0x71ac7000 	C:\WINDOWS\system32\WS2_32.dll
+0x71aa0000 - 0x71aa8000 	C:\WINDOWS\system32\WS2HELP.dll
+0x6d550000 - 0x6d559000 	C:\dev\Java\jdk1.5.0_06\jre\bin\nio.dll
+0x2b4f0000 - 0x2b542000 	C:\dev\eclipse-SDK-3.2\eclipse\configuration\org.eclipse.osgi\bundles\434\1\.cp\swt-win32-3232.dll
+0x774e0000 - 0x7761d000 	C:\WINDOWS\system32\ole32.dll
+0x773d0000 - 0x774d2000 	C:\WINDOWS\WinSxS\X86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\COMCTL32.dll
+0x77f60000 - 0x77fd6000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x763b0000 - 0x763f9000 	C:\WINDOWS\system32\comdlg32.dll
+0x7c9c0000 - 0x7d1d4000 	C:\WINDOWS\system32\SHELL32.dll
+0x77120000 - 0x771ac000 	C:\WINDOWS\system32\OLEAUT32.dll
+0x76390000 - 0x763ad000 	C:\WINDOWS\system32\IMM32.dll
+0x74d90000 - 0x74dfb000 	C:\WINDOWS\system32\USP10.dll
+0x771b0000 - 0x77256000 	C:\WINDOWS\system32\WININET.dll
+0x77a80000 - 0x77b14000 	C:\WINDOWS\system32\CRYPT32.dll
+0x77b20000 - 0x77b32000 	C:\WINDOWS\system32\MSASN1.dll
+0x75a70000 - 0x75a91000 	C:\WINDOWS\system32\MSVFW32.dll
+0x5d090000 - 0x5d127000 	C:\WINDOWS\system32\comctl32.dll
+0x5ad70000 - 0x5ada8000 	C:\WINDOWS\system32\uxtheme.dll
+0x2b630000 - 0x2b638000 	C:\dev\eclipse-SDK-3.2\eclipse\configuration\org.eclipse.osgi\bundles\372\1\.cp\os\win32\x86\localfile_1_0_0.dll
+0x74c80000 - 0x74cac000 	C:\WINDOWS\system32\oleacc.dll
+0x76080000 - 0x760e5000 	C:\WINDOWS\system32\MSVCP60.dll
+0x2b920000 - 0x2b933000 	C:\dev\eclipse-SDK-3.2\eclipse\configuration\org.eclipse.osgi\bundles\434\1\.cp\swt-gdip-win32-3232.dll
+0x4ec50000 - 0x4edf3000 	C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.2600.2180_x-ww_522f9f82\gdiplus.dll
+0x2c300000 - 0x2c5c5000 	C:\WINDOWS\system32\xpsp2res.dll
+0x76fd0000 - 0x7704f000 	C:\WINDOWS\system32\CLBCATQ.DLL
+0x77050000 - 0x77115000 	C:\WINDOWS\system32\COMRes.dll
+0x77c00000 - 0x77c08000 	C:\WINDOWS\system32\VERSION.dll
+0x75cf0000 - 0x75d81000 	C:\WINDOWS\System32\mlang.dll
+0x6eec0000 - 0x6eee1000 	C:\dev\MyEclipse Enterprise Workbench 5.1.0 GA\eclipse\plugins\org.tigris.subversion.javahl.win32_1.2.0\libapr.dll
+0x71a50000 - 0x71a8f000 	C:\WINDOWS\system32\MSWSOCK.dll
+0x6ee50000 - 0x6ee59000 	C:\dev\MyEclipse Enterprise Workbench 5.1.0 GA\eclipse\plugins\org.tigris.subversion.javahl.win32_1.2.0\libapriconv.dll
+0x2c9f0000 - 0x2caf8000 	C:\dev\MyEclipse Enterprise Workbench 5.1.0 GA\eclipse\plugins\org.tigris.subversion.javahl.win32_1.2.0\libeay32.dll
+0x71ad0000 - 0x71ad9000 	C:\WINDOWS\system32\WSOCK32.dll
+0x2cb00000 - 0x2cbc4000 	C:\dev\MyEclipse Enterprise Workbench 5.1.0 GA\eclipse\plugins\org.tigris.subversion.javahl.win32_1.2.0\libdb44.dll
+0x2cbd0000 - 0x2cc01000 	C:\dev\MyEclipse Enterprise Workbench 5.1.0 GA\eclipse\plugins\org.tigris.subversion.javahl.win32_1.2.0\ssleay32.dll
+0x6ee60000 - 0x6ee89000 	C:\dev\MyEclipse Enterprise Workbench 5.1.0 GA\eclipse\plugins\org.tigris.subversion.javahl.win32_1.2.0\libaprutil.dll
+0x2cc10000 - 0x2cc22000 	C:\dev\MyEclipse Enterprise Workbench 5.1.0 GA\eclipse\plugins\org.tigris.subversion.javahl.win32_1.2.0\intl3_svn.dll
+0x2cc30000 - 0x2cd38000 	C:\dev\MyEclipse Enterprise Workbench 5.1.0 GA\eclipse\plugins\org.tigris.subversion.javahl.win32_1.2.0\libsvnjavahl-1.dll
+0x76780000 - 0x76789000 	C:\WINDOWS\system32\SHFOLDER.dll
+0x6d520000 - 0x6d528000 	C:\dev\Java\jdk1.5.0_06\jre\bin\management.dll
+0x76380000 - 0x76385000 	C:\WINDOWS\system32\msimg32.dll
+0x6d070000 - 0x6d1d7000 	C:\dev\Java\jdk1.5.0_06\jre\bin\awt.dll
+0x73000000 - 0x73026000 	C:\WINDOWS\system32\WINSPOOL.DRV
+0x73760000 - 0x737a9000 	C:\WINDOWS\system32\ddraw.dll
+0x73bc0000 - 0x73bc6000 	C:\WINDOWS\system32\DCIMAN32.dll
+0x73940000 - 0x73a10000 	C:\WINDOWS\system32\D3DIM700.DLL
+0x6d2b0000 - 0x6d2ed000 	C:\dev\Java\jdk1.5.0_06\jre\bin\fontmanager.dll
+0x76f20000 - 0x76f47000 	C:\WINDOWS\system32\DNSAPI.dll
+0x76fb0000 - 0x76fb8000 	C:\WINDOWS\System32\winrnr.dll
+0x76f60000 - 0x76f8c000 	C:\WINDOWS\system32\WLDAP32.dll
+0x76fc0000 - 0x76fc6000 	C:\WINDOWS\system32\rasadhlp.dll
+0x2dd80000 - 0x2dda8000 	C:\WINDOWS\system32\rsaenh.dll
+0x769c0000 - 0x76a73000 	C:\WINDOWS\system32\USERENV.dll
+0x5b860000 - 0x5b8b4000 	C:\WINDOWS\system32\netapi32.dll
+0x662b0000 - 0x66308000 	C:\WINDOWS\system32\hnetcfg.dll
+0x71a90000 - 0x71a98000 	C:\WINDOWS\System32\wshtcpip.dll
+0x6d230000 - 0x6d253000 	C:\dev\Java\jdk1.5.0_06\jre\bin\dcpr.dll
+0x77b40000 - 0x77b62000 	C:\WINDOWS\system32\appHelp.dll
+0x34020000 - 0x340a4000 	C:\dev\TortoiseSVN\bin\tortoisesvn.dll
+0x340b0000 - 0x340d2000 	C:\dev\TortoiseSVN\bin\libapr_tsvn.dll
+0x78130000 - 0x781cb000 	C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_0de06acd\MSVCR80.dll
+0x340e0000 - 0x34108000 	C:\dev\TortoiseSVN\bin\libaprutil_tsvn.dll
+0x2c960000 - 0x2c96d000 	C:\dev\TortoiseSVN\bin\libapriconv_tsvn.dll
+0x7c420000 - 0x7c4a7000 	C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_0de06acd\MSVCP80.dll
+0x6ee40000 - 0x6ee46000 	C:\dev\TortoiseSVN\iconv\_tbl_simple.so
+0x6e060000 - 0x6e067000 	C:\dev\TortoiseSVN\iconv\windows-1252.so
+0x6ed50000 - 0x6ed56000 	C:\dev\TortoiseSVN\iconv\utf-8.so
+0x77a20000 - 0x77a74000 	C:\WINDOWS\System32\cscui.dll
+0x76600000 - 0x7661d000 	C:\WINDOWS\System32\CSCDLL.dll
+0x75f80000 - 0x7607d000 	C:\WINDOWS\System32\browseui.dll
+0x77920000 - 0x77a13000 	C:\WINDOWS\system32\SETUPAPI.dll
+0x76990000 - 0x769b5000 	C:\WINDOWS\system32\ntshrui.dll
+0x76b20000 - 0x76b31000 	C:\WINDOWS\system32\ATL.DLL
+0x77760000 - 0x778cc000 	C:\WINDOWS\System32\shdocvw.dll
+0x754d0000 - 0x75550000 	C:\WINDOWS\system32\CRYPTUI.dll
+0x76c30000 - 0x76c5e000 	C:\WINDOWS\system32\WINTRUST.dll
+0x76c90000 - 0x76cb8000 	C:\WINDOWS\system32\IMAGEHLP.dll
+
+VM Arguments:
+jvm_args: -Duser.language=en -Xms128M -Xmx512M -XX:PermSize=64M -XX:MaxPermSize=128M -Dosgi.splashLocation=C:\dev\MyEclipse Enterprise Workbench 5.1.0 GA\eclipse\MyEclipseSplash.bmp
+java_command: C:\dev\eclipse-SDK-3.2\eclipse\startup.jar -data C:\ci\src\eclipse -os win32 -ws win32 -arch x86 -launcher C:\dev\eclipse-SDK-3.2\eclipse\eclipse.exe -name Eclipse -showsplash 600 -exitdata 1190_50 -product com.genuitec.myeclipse.product.ide -vm C:\dev\Java\jdk1.5.0_06\bin\javaw.exe -vmargs -Duser.language=en -Xms128M -Xmx512M -XX:PermSize=64M -XX:MaxPermSize=128M -Dosgi.splashLocation=C:\dev\MyEclipse Enterprise Workbench 5.1.0 GA\eclipse\MyEclipseSplash.bmp -jar C:\dev\eclipse-SDK-3.2\eclipse\startup.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\dev\Java\jdk1.5.0_06
+PATH=C:\dev\MySQL\MySQL Server 5.0\bin;C:\dev\Java\jdk1.5.0_06\bin;C:\apache-ant-1.7.0\bin;C:\dev\Perl\site\bin;C:\dev\Perl\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ATI Technologies\ATI Control Panel;C:\dev\jboss-4.0.5.GA\bin;C:\dev\maven-2.0.4\bin;C:\dev\MySQL\MySQL Server 5.0\bin;C:\dev\Subversion\bin;C:\nutch\nutch-0.9\bin;C:\apache-tomcat-6.0.13\apache-tomcat-6.0.13\bin
+USERNAME=salag1
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 13 Stepping 8, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 2
+
+CPU:total 1 family 6, cmov, cx8, fxsr, mmx, sse, sse2
+
+Memory: 4k page, physical 1571248k(161956k free), swap 3513216k(2186492k free)
+
+vm_info: Java HotSpot(TM) Client VM (1.5.0_06-b05) for windows-x86, built on Nov 10 2005 11:12:14 by "java_re" with MS VC++ 6.0
+

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+-
+<publicapi>
+	<link type="rss" title="Bloglines Search: collective+intelligence"
+		href="http://www.bloglines.com/search?q=collective+intelligence&s=fr&pop=l&news=m&format=rss" />
+	-
+	<resultset set="main" qtype="article" estimate="23100"
+		found="178">
+		-
+		<result id="0" siteid="6471704" itemid="60" inline="0"
+			date="Sun, 31 Dec 2006 07:38:00 GMT" citations="0">
+			-
+			<site nsubs="6">
+				<name>Technology to Empower Student Learning</name>
+				<url>http://quirkytech.blogspot.com/index.html</url>
+				<feedurl>
+					http://quirkytech.blogspot.com/atom.xml
+				</feedurl>
+			</site>
+			<title>
+				<B>Collective</B>
+				<B>Intelligence</B>
+			</title>
+			<author>Diane Quirk</author>
+			<abstract>
+				I really love this term, &quot;
+				<B>collective</B>
+				<B>intelligence</B>
+				&quot; that keeps coming up over and over in Don
+				Tapscott's Wikinomics.
+			</abstract>
+			<url>
+				http://quirkytech.blogspot.com/2006/12/collective-intelligence.html
+			</url>
+		</result>
+		-
+		<result id="1" siteid="5305134" itemid="759" inline="0"
+			date="Sun, 31 Dec 2006 15:54:00 GMT" citations="0">
+			-
+			<site nsubs="2">
+				<name>Dragon Head Almost Destroyed Me</name>
+				<feedurl>
+					http://www.dhadm.com/index.php/dhadm/rss_atom/
+				</feedurl>
+			</site>
+			<title>Verizon Wireless | MotoQ</title>
+			<author>McPhee</author>
+			<abstract>
+				Here&#8217;s a slew of DHADM posts on the Chocolate
+				versions (there are more - use the search) - Lady
+				Sovereign - Jet (navigation) - Jet (phone) - Chris Brown
+				- Goldfrapp - Rockstar Supernova Disclosure: Currently,
+				my prime client is Windows Mobile
+			</abstract>
+			<url>
+				http://www.dhadm.com/index.php/weblog/verizon_wireless_motoq/
+			</url>
+		</result>
+		-
+		<result id="2" siteid="2571676" itemid="3675" inline="0"
+			date="Sun, 31 Dec 2006 16:32:00 GMT" citations="0">
+			-
+			<site nsubs="2">
+				<name>Global Intelligence News</name>
+				<url>http://globalintel.net/wp</url>
+				<feedurl>http://globalintel.net/wp/?feed=atom</feedurl>
+			</site>
+			<title>Global Intel - Wiki Search Planned</title>
+			<author>eurasiarc</author>
+			<abstract>
+				...for developerWorks tutorials, with open source and
+				Rational developer community, exemplifying the powerful
+				<B>collective</B>
+				<B>intelligence</B>
+				of the
+			</abstract>
+			<url>http://globalintel.net/wp/?p=24033</url>
+		</result>
+		-
+		<result id="3" siteid="2571676" itemid="3669" inline="0"
+			date="Sun, 31 Dec 2006 16:29:00 GMT" citations="0">
+			-
+			<site nsubs="2">
+				<name>Global Intelligence News</name>
+				<url>http://globalintel.net/wp</url>
+				<feedurl>http://globalintel.net/wp/?feed=atom</feedurl>
+			</site>
+			<title>Global Intel - Tyrant mocked at the death</title>
+			<author>eurasiarc</author>
+			<abstract>
+				...for developerWorks tutorials, with open source and
+				Rational developer community, exemplifying the powerful
+				<B>collective</B>
+				<B>intelligence</B>
+				of the
+			</abstract>
+			<url>http://globalintel.net/wp/?p=24027</url>
+		</result>
+		-
+		<result id="4" siteid="6159532" itemid="1922" inline="0"
+			date="Sun, 31 Dec 2006 23:12:00 GMT" citations="0">
+			-
+			<site nsubs="2">
+				<name>P2P Foundation - Recent changes [en]</name>
+				<url>
+					http://www.p2pfoundation.net/Special:Recentchanges
+				</url>
+				<feedurl>
+					http://www.p2pfoundation.net/index.php?title=Special:Recentchanges&feed=rss
+				</feedurl>
+			</site>
+			<title>Murphy, Tim</title>
+			<author>Mbauwens</author>
+			<abstract>
+				New page. Tim Murphy is a [[
+				<B>Collective</B>
+				<B>Intelligence</B>
+				]] researcher and activist. =Bio= &quot;Tim Murphy - CEO
+				and Founder, Alchemy Films International...
+			</abstract>
+			<url>http://www.p2pfoundation.net/Murphy,_Tim</url>
+		</result>
+		-
+		<result id="5" siteid="2996508" itemid="126" inline="1"
+			date="Sun, 31 Dec 2006 15:40:00 GMT" citations="0">
+			-
+			<site nsubs="434">
+				<name>Dion Hinchcliffe's Web 2.0 Blog</name>
+				<url>http://web2.wsj2.com/</url>
+				<feedurl>http://web2.wsj2.com/index.rss</feedurl>
+			</site>
+			<title>The Best Web 2.0 Software of 2006</title>
+			<abstract>
+				...you're looking for using keywords, but social
+				bookmarking sites can let you directly harness the
+				<B>collective</B>
+				<B>intelligence</B>
+				of other users on the...
+			</abstract>
+			<url>
+				http://web2.wsj2.com/the_best_web_20_software_of_2006.htm
+			</url>
+		</result>
+		-
+		<result id="6" siteid="7178341" itemid="18881" inline="1"
+			date="Sun, 31 Dec 2006 16:01:00 GMT" citations="0">
+			-
+			<site nsubs="4">
+				<name>
+					WEBTOOZ : toute l'actualit
+					&eacute;
+					du Web 2.0
+				</name>
+				<url>http://www.webtooz.com</url>
+				<feedurl>
+					http://www.webtooz.com/rss.php/cfcd208495d565ef66e7dff9f98764da/0.xml
+				</feedurl>
+			</site>
+			<title>
+				Dion Hinchcliffe\\\'s Web 2.0 Blog: The Best Web 2.0
+				Software of...
+			</title>
+			<abstract>
+				...you're looking for using keywords, but social
+				bookmarking sites can let you directly harness the
+				<B>collective</B>
+				<B>intelligence</B>
+				of other users on the...
+			</abstract>
+			<url>
+				http://www.webtooz.com/e7aef9f5fddeabbe3e77d166944a4de7:e147b38b4591d28ad1a5d6977afaa468
+			</url>
+		</result>
+		-
+		<result id="7" siteid="71559" itemid="879" inline="1"
+			date="Sun, 31 Dec 2006 12:27:00 GMT" citations="0">
+			-
+			<site nsubs="43">
+				<name>Prodigal Kiwi(s) Blog</name>
+				<url>http://prodigal.typepad.com/prodigal_kiwi/</url>
+				<feedurl>
+					http://prodigal.typepad.com/prodigal_kiwi/atom.xml
+				</feedurl>
+			</site>
+			<title>Re~Working Leadership</title>
+			<author>Paul Fromont</author>
+			<abstract>
+				...with the flattened world—conversation, collaboration,
+				participation, influence, presence,
+				<B>collective</B>
+				<B>intelligence</B>
+				, and empowerment—has...
+			</abstract>
+			<url>
+				http://prodigal.typepad.com/prodigal_kiwi/2007/01/reworking_leade.html
+			</url>
+		</result>
+		-
+		<result id="8" siteid="8349312" itemid="132" inline="0"
+			date="Sun, 31 Dec 2006 12:55:00 GMT" citations="0">
+			-
+			<site nsubs="2">
+				<name>French Élection 2007</name>
+				<url>
+					http://frenchelection2007.blogspot.com/index.html
+				</url>
+				<feedurl>
+					http://frenchelection2007.blogspot.com/feeds/posts/default?alt=rss
+				</feedurl>
+			</site>
+			<title>Royal shadows Chirac</title>
+			<author>Boz</author>
+			<abstract>
+				There remains four months to build all that (yet) I have
+				confidence because I believe in the
+				<B>collective</B>
+				<B>intelligence</B>
+				of the French who want...
+			</abstract>
+			<url>
+				http://frenchelection2007.blogspot.com/2006/12/royal-shadows-chirac.html
+			</url>
+		</result>
+	</resultset>
+	-
+	<resultset set="top5" qtype="feed">
+		-
+		<result id="0" siteid="5355042" itemid="0"
+			date="Wed, 31 Dec 1969 15:59:59 GMT" citations="51">
+			-
+			<site nsubs="26">
+				<name>Blog of Collective Intelligence</name>
+				<url>
+					http://www.community-intelligence.com/blogs/public/
+				</url>
+				<feedurl>
+					http://www.community-intelligence.com/blogs/public/atom.xml
+				</feedurl>
+			</site>
+			<title>
+				Blog of
+				<B>Collective</B>
+				<B>Intelligence</B>
+			</title>
+			<author>
+				Blog of
+				<B>Collective</B>
+				<B>Intelligence</B>
+			</author>
+			<abstract>
+				<B>Collective</B>
+				<B>intelligence</B>
+				is the capacity of human communities to evolve towards
+				higher order complexity and harmony, through such
+				innovation...
+			</abstract>
+			<url>
+				http://www.community-intelligence.com/blogs/public/
+			</url>
+		</result>
+		-
+		<result id="1" siteid="2045276" itemid="0"
+			date="Wed, 31 Dec 1969 15:59:59 GMT" citations="74">
+			-
+			<site nsubs="19">
+				<name>
+					IlliniPundit.com - Collective Intelligence
+					Interacting Freely
+				</name>
+				<url>http://www.illinipundit.com</url>
+				<feedurl>
+					http://feeds.feedburner.com/Illinipundit
+				</feedurl>
+			</site>
+			<title>
+				IlliniPundit.com -
+				<B>Collective</B>
+				<B>Intelligence</B>
+				Interacting Freely
+			</title>
+			<author>
+				IlliniPundit.com -
+				<B>Collective</B>
+				<B>Intelligence</B>
+				Interacting Freely
+			</author>
+			<abstract />
+			<url>http://www.illinipundit.com/</url>
+		</result>
+		-
+		<result id="2" siteid="1901635" itemid="0"
+			date="Wed, 31 Dec 1969 15:59:59 GMT" citations="1">
+			-
+			<site nsubs="13">
+				<name>Evolving Collective Intelligence</name>
+				<url>http://www.newmediaexplorer.org/tom_atlee/</url>
+				<feedurl>
+					http://www.communicationagents.com/tom_atlee/index.rdf
+				</feedurl>
+			</site>
+			<title>
+				Evolving
+				<B>Collective</B>
+				<B>Intelligence</B>
+			</title>
+			<author>
+				Evolving
+				<B>Collective</B>
+				<B>Intelligence</B>
+			</author>
+			<abstract />
+			<url>http://www.newmediaexplorer.org/tom_atlee/</url>
+		</result>
+		-
+		<result id="3" siteid="8210872" itemid="0"
+			date="Wed, 31 Dec 1969 15:59:59 GMT" citations="0">
+			-
+			<site nsubs="2">
+				<name>
+					The Collective Intelligence Blog By George Fleming
+				</name>
+				<url>
+					http://www.inveslogic.com/blog/george_fleming/
+				</url>
+				<feedurl>
+					http://www.inveslogic.com/feeds/4_rss.xml
+				</feedurl>
+			</site>
+			<title>
+				The
+				<B>Collective</B>
+				<B>Intelligence</B>
+				Blog By George Fleming
+			</title>
+			<author>
+				The
+				<B>Collective</B>
+				<B>Intelligence</B>
+				Blog By George Fleming
+			</author>
+			<abstract>
+				Written by George Fleming, the InvesLogic Founders Blog
+				is about InvesLogic, its development and business model.
+			</abstract>
+			<url>http://www.inveslogic.com/blog/george_fleming/</url>
+		</result>
+		-
+		<result id="4" siteid="3833563" itemid="0"
+			date="Wed, 31 Dec 1969 15:59:59 GMT" citations="0">
+			-
+			<site nsubs="2">
+				<name>Collective Intelligence</name>
+				<url>http://takethisdotcom.blogspot.com</url>
+				<feedurl>
+					http://takethisdotcom.blogspot.com/atom.xml?bsuser=takethisdotcom
+				</feedurl>
+			</site>
+			<title>
+				<B>Collective</B>
+				<B>Intelligence</B>
+			</title>
+			<author>
+				<B>Collective</B>
+				<B>Intelligence</B>
+			</author>
+			<abstract />
+			<url>http://takethisdotcom.blogspot.com/</url>
+		</result>
+	</resultset>
+</publicapi>

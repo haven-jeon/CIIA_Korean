@@ -1,0 +1,23 @@
+200 OK
+
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Foo</title>
+  <updated>2006-01-23T16:26:03-08:00</updated>
+  <id>http://www.example.com/myFeed</id>
+  <author>
+    <name>Jo March</name>
+  </author>
+  <link href="/myFeed" rel="self"/>
+  <entry>
+    <id>1</id>
+    <link rel="edit" href="http://example.com/myFeed/1/1/"/>
+    <updated>2006-01-23T16:26:03-08:00</updated>
+    <author>
+      <name>Elizabeth Bennet</name> 
+      <email>liz@gmail.com</email> 
+    </author>
+    <title type="text">Entry 1</title>
+    <content type="text">This is my entry</content>
+  </entry>
+</feed>

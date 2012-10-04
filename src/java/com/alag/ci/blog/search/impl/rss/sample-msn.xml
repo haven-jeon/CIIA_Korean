@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type='text/xsl' href='/rss.xsl' version='1.0'?>
+<rss version="2.0">
+	<channel>
+		<title>Live Search: collective intelligence</title>
+		<link>
+			http://search.msn.com:80/results.aspx?q=collective+intelligence
+		</link>
+		<description>Search results</description>
+		<copyright>
+			Copyright © 2007 Microsoft. All rights reserved. These XML
+			results may not be used, reproduced or transmitted in any
+			manner or for any purpose other than rendering MSN Search
+			results within an RSS aggregator for your personal,
+			non-commercial use. Any other use of these results requires
+			express written permission from Microsoft Corporation. By
+			accessing this web page or using these results in any manner
+			whatsoever, you agree to be bound by the foregoing
+			restrictions.
+		</copyright>
+		<item>
+			<title>
+				Collective intelligence - Wikipedia, the free
+				encyclopedia
+			</title>
+			<link>
+				http://en.wikipedia.org/wiki/Collective_intelligence
+			</link>
+			<description>
+				Collective intelligence, as characterized by Peter
+				Russell (1983), Tom Atlee (1993), Howard Bloom (1995),
+				Francis Heylighen (1995), Douglas Engelbart, Cliff
+				Joslyn, Ron Dembo, Gottfried Mayer-Kress ...
+			</description>
+			<pubDate>19 Dec 06 20:05:00 UTC</pubDate>
+		</item>
+		<item>
+			<title>
+				Collective Intelligence Inc. - Corporate Home Page
+			</title>
+			<link>http://www.collectiveintelligence.com/</link>
+			<description>FW MX DW MX HTML</description>
+			<pubDate>24 Dec 06 01:44:00 UTC</pubDate>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	xmlns:tapi="http://api.technorati.com/dtd/tapi-002.xml">
+	<channel>
+		<title>
+			[Technorati] Tag results for collective intelligence
+		</title>
+		<link>
+			http://www.technorati.com/tag/collective%20intelligence
+		</link>
+		<description>
+			Posts tagged with "collective intelligence" on Technorati.
+		</description>
+		<pubDate>Sun, 31 Dec 2006 20:06:24 PST</pubDate>
+		<category domain="http://www.technorati.com/tag">
+			collective intelligence
+		</category>
+		<tapi:inboundblogs></tapi:inboundblogs>
+		<tapi:inboundlinks>621</tapi:inboundlinks>
+		<generator>Technorati v1.0</generator>
+		<image>
+			<url>
+				http://static.technorati.com/pix/logos/logo_sm.gif
+			</url>
+			<title>Technorati logo</title>
+			<link>http://www.technorati.com</link>
+		</image>
+		<webMaster>
+			support@technorati.com (Technorati Support)
+		</webMaster>
+		<docs>http://blogs.law.harvad.edu/tech/rss</docs>
+		<item>
+			<title>Web services needs and business trends</title>
+			<link>http://www.3form.org/blog/?p=16</link>
+			<description>
+				Richard MacManus has a post about the biggest web trend
+				predictions for 2007. It is somewhat...
+			</description>
+			<guid isPermaLink="true">
+				http://www.3form.org/blog/?p=16
+			</guid>
+			<pubDate>Sun, 31 Dec 2006 22:53:06 GMT</pubDate>
+			<tapi:linkcreated>2006-12-31 14:52:04 PST</tapi:linkcreated>
+			<comments>
+				http://technorati.com/search/http%3A%2F%2Fwww.3form.org%2Fblog%2F%3Fp%3D16
+			</comments>
+			<tapi:inboundblogs>3</tapi:inboundblogs>
+			<tapi:inboundlinks>9</tapi:inboundlinks>
+			<source url="http://www.3form.org/blog/?feed=rss2">
+				Social computation and creativity
+			</source>
+		</item>
+		<item>
+			<title>What internet service do you need?</title>
+			<link>http://www.3form.org/blog/?p=15</link>
+			<description>
+				What internet service do you need? December 31st, 2006 I
+				stumbled on the question “What internet service [do] you
+				need, but still searching… ?” at...
+			</description>
+			<guid isPermaLink="true">
+				http://www.3form.org/blog/?p=15
+			</guid>
+			<pubDate>Sun, 31 Dec 2006 20:27:57 GMT</pubDate>
+			<tapi:linkcreated>2006-12-31 12:07:14 PST</tapi:linkcreated>
+			<comments>
+				http://technorati.com/search/http%3A%2F%2Fwww.3form.org%2Fblog%2F%3Fp%3D15
+			</comments>
+			<tapi:inboundblogs>3</tapi:inboundblogs>
+			<tapi:inboundlinks>9</tapi:inboundlinks>
+			<source url="http://www.3form.org/blog/?feed=rss2">
+				Social computation and creativity
+			</source>
+		</item>
+		<item>
+			<title>3 Sec 0-60MPH for $40,000</title>
+			<link>
+				http://www.dhadm.com/index.php/weblog/3_sec_0_60mph_for_40000/
+			</link>
+			<description>
+				Make sure you read the user reviews of this video: click
+				here I can almost always get a laugh from reading them
+				and these are wonderful...
+			</description>
+			<guid isPermaLink="true">
+				http://www.dhadm.com/index.php/weblog/3_sec_0_60mph_for_40000/
+			</guid>
+			<pubDate>Thu, 28 Dec 2006 12:10:03 GMT</pubDate>
+			<tapi:linkcreated>2006-12-28 04:09:54 PST</tapi:linkcreated>
+			<comments>
+				http://technorati.com/search/http%3A%2F%2Fwww.dhadm.com%2Findex.php%2Fweblog%2F3_sec_0_60mph_for_40000%2F
+			</comments>
+			<tapi:inboundblogs>83</tapi:inboundblogs>
+			<tapi:inboundlinks>147</tapi:inboundlinks>
+			<source
+				url="http://www.dhadm.com/index.php/dhadm/rss_2.0/">
+				Dragon Head Almost Destroyed Me
+			</source>
+		</item>
+	</channel>
+</rss>

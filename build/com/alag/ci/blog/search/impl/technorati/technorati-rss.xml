@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+xmlns:tapi="http://api.technorati.com/dtd/tapi-002.xml">
+<channel>
+<title>[Technorati] Tag results for collective intelligence</title>
+<link>http://www.technorati.com/tag/collective%20intelligence</link>
+<description>Posts tagged with "collective intelligence" on Technorati.</description>
+<pubDate>Mon, 22 Jan 2007 23:21:13 PST</pubDate>
+<category domain="http://www.technorati.com/tag">collective intelligence</category>
+<tapi:inboundblogs></tapi:inboundblogs>
+<tapi:inboundlinks>712</tapi:inboundlinks>
+<generator>Technorati v1.0</generator>
+ <image>
+        <url>http://static.technorati.com/pix/logos/logo_sm.gif</url>
+            <title>Technorati logo</title>
+            <link>http://www.technorati.com</link>
+            </image>
+<webMaster>support@technorati.com (Technorati Support)</webMaster>
+<docs>http://blogs.law.harvad.edu/tech/rss</docs>
+<item>
+<title>Ancient Audio Free With Every Brain</title>
+<link>http://criticalnoise.blogspot.com/2007/01/ancient-audio-free-with-every-brain.html</link>
+<description>In Same Old Song, but With a Different Meaning (© Copyright The Washington Post Company, Monday...</description>
+<guid isPermaLink="true">http://criticalnoise.blogspot.com/2007/01/ancient-audio-free-with-every-brain.html</guid>
+<pubDate>Tue, 23 Jan 2007 01:57:40 GMT</pubDate>
+<tapi:linkcreated>2007-01-22 17:56:25 PST</tapi:linkcreated>
+<comments>http://technorati.com/search/http%3A%2F%2Fcriticalnoise.blogspot.com%2F2007%2F01%2Fancient-audio-free-with-every-brain.html</comments>
+<tapi:inboundblogs>1</tapi:inboundblogs>
+<tapi:inboundlinks>3</tapi:inboundlinks>
+</item>
+<item>
+<title>Intelligence collective 2.0 : le savoir au coeur de l'ingénierie du lien social</title>
+<link>http://legrenier.roumieux.com/post/2007/01/22/Intelligence-collective-20-%3A-le-savoir-au-coeur-de-lingenierie-du-lien-social</link>
+<description>Vous ne pensiez tout de même pas vous en tirer à si bon compte, tout de même. Ayant constaté avec perplexité les chiffres de fréquentation et les...</description>
+<guid isPermaLink="true">http://legrenier.roumieux.com/post/2007/01/22/Intelligence-collective-20-%3A-le-savoir-au-coeur-de-lingenierie-du-lien-social</guid>
+<pubDate>Mon, 22 Jan 2007 20:58:29 GMT</pubDate>
+<tapi:linkcreated>2007-01-22 12:03:00 PST</tapi:linkcreated>
+<comments>http://technorati.com/search/http%3A%2F%2Flegrenier.roumieux.com%2Fpost%2F2007%2F01%2F22%2FIntelligence-collective-20-%253A-le-savoir-au-coeur-de-lingenierie-du-lien-social</comments>
+<tapi:inboundblogs>1</tapi:inboundblogs>
+<tapi:inboundlinks>2</tapi:inboundlinks>
+<source url="http://legrenier.roumieux.com/feed/rss2">legrenier : toute la nostalgie du futur, avec de vrais morceaux de passÃ©</source>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Blogdigger search for collective intelligence</title>
+		<link>
+			http://www.blogdigger.com/search/collective+intelligence
+		</link>
+		<description>
+			Blogdigger search for collective intelligence
+		</description>
+		<ttl>60</ttl>
+		<image>
+			<url>
+				http://www.blogdigger.com/images/blogd_logo01a.gif
+			</url>
+			<title>Blogdigger search for collective intelligence</title>
+			<link>
+				http://www.blogdigger.com/search?q=collective+intelligence
+			</link>
+			<width>144</width>
+			<height>55</height>
+		</image>
+
+		<item>
+			<title>
+				Water - the basic system flow and missing learning
+				curricula from Grade 1 to 40
+			</title>
+			<link>
+				http://waterangels.blogspot.com/2006/12/water-basic-system-flow-and-missing.html
+			</link>
+			<description>
+				When info from our various network sources including
+				(Europe KM, Simpol, Brazil's International Free Water
+				Academy) motivated us to start this blog, we knew water
+				was the most undertaught and undervalued educational
+				curriculum. Water is the matter of sustaining life, it
+				is the simplest and most perv...
+			</description>
+			<pubDate>Mon, 1 Jan 2007 00:38:00 EST</pubDate>
+
+			<source url="http://waterangels.blogspot.com/atom.xml">
+				what the worlds need now is peoples networks
+				collaborating around maps of future of water
+			</source>
+
+			<author>macrae.nets</author>
+
+		</item>
+
+		<item>
+			<title>John Brockman: The Edge Annual Question</title>
+			<link>
+				http://feeds.huffingtonpost.com/~r/huffingtonpost/raw_feed/~3/69177441/the-edge-annual-question_b_37535.html
+			</link>
+			<description>01.01.2007 "Big, deep and ambitious
+				questions....breathtaking in scope. Keep watching The
+				World Question Center." -- New Scientist (1998) GOT
+				OPTIMISM? THE WORLD'S LEADING THINKERS SEE GOOD NEWS
+				AHEAD While conventional wisdom tells us that things are bad and getting worse, scientists and the scienc...</description>
+			<pubDate>Sun, 31 Dec 2006 23:59:38 EST</pubDate>
+
+			<source
+				url="http://www.huffingtonpost.com/raw_feed_index.rdf">
+				The Huffington Post | Raw Feed
+			</source>
+
+			<author>John Brockman</author>
+
+			<category ></category>
+
+		</item>
+
+	</channel>
+</rss>
