@@ -1,3 +1,11 @@
+=================================================================================================
+이 저장소에는 "실전 예제로 살펴보는 집단지성 프로그래밍"이라는 원서(Collective Intelligence in Action)의 
+번역서의 예제 코드를 포함하고 있다. 
+원서의 예제코드에서 수정 및 추가된 부분이 있어 따로 저장소를 만들어 공유하는 바이다.  
+=================================================================================================
+
+
+
 Copyright -- Collective Intelligence in Action, Satnam Alag
 
 All code developed for the book, Collective Intelligence in Action is contained in the src directory.
@@ -125,7 +133,4 @@ com.alag.ci.cf.SVDExample
 
 
 
-
-이 저장소에는 "실전 예제로 살펴보는 집단지성 프로그래밍"이라는 원서(Collective Intelligence in Action)의 번역서의 예제 코드를 포함하고 있다. 
-원서의 예제코드에서 수정 및 추가된 부분이 있어 따로 저장소를 만들어 공유하는 바이다.  
 
